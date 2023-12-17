@@ -6,15 +6,43 @@
   color: #fff;
 }
 
+:root{
+ --white: #fff;
+ --white-transp: #d7ccc0;
+ --light: #f5f4f0;
+ --main: #fe8a02;
+ --main-dark: #42413c;
+ --dark: #2a2626;
+ --dark-transp: #908d8b;
+ --brown: #b09a81;
+ --blue: #1085c5;
+ --main-font: "Open Sans";
+ --font-title: "Neucha";
+ --lh-title: 1,2em;
+}
+
+.fz-h1 {
+  font-size: 72px;
+}
+
+.fz-h2{
+  font-size: 60px;
+}
+
+.fz-h3{
+  font-size: 34px;
+}
+
 body {
-  color: var(--Dark, #2A2626);
-  font-family: Open Sans;
+  color: var(--dark);
+  font-family: var(--main-font);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 25.6px;
+  line-height: 1.6em;
+
 }
 
 .container {
-  max-width: 1138px;
+  max-width: 1110px;
   margin: 0 auto;
+  padding: 100px 0;
 }
