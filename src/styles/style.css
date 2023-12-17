@@ -18,11 +18,15 @@
  --blue: #1085c5;
  --main-font: "Open Sans";
  --font-title: "Neucha";
- --lh-title: 1,2em;
+ --lh-title: 1.2em;
 }
 
 .fz-h1 {
   font-size: 72px;
+  line-height: var(--lh-title);
+  font-family: var(--font-title);
+  color: var(--main);
+  font-weight: 400;
 }
 
 .fz-h2{
@@ -36,13 +40,85 @@
 body {
   color: var(--dark);
   font-family: var(--main-font);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.6em;
-
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+.header{
+  position: relative; 
+  overflow-x: hidden;
+  background-color: #F5F5F5;
+  z-index: -3;
+}
+
+.header::before{
+  content: "";
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+
+.header-inner{
+  position: relative;
+}
+.header-title {
+  margin: 0;
+  margin-bottom: 185px;
+}
+.span{
+  color: var(--dark);
+}
+
+.header-img{
+  height: 525px;
+  position: absolute;
+  top: -45px;
+  right: -270px;
+  z-index: -1;
+}
+
+.texts{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.texts p{
+  flex-basis: 540px;
+  margin-bottom: 0;
+}
+
+.text-link{
+  flex-basis: 540px;
+}
+
+.link{
+  padding: 12px 24px;
+  font-weight: bold;
+  background: var(--main);
+  color: var(--white);
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.link:hover{
+  background-color: #EA7600;
 }
