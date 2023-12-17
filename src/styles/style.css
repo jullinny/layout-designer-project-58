@@ -68,19 +68,19 @@ body {
   opacity: 0.1;
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
   z-index: -2;
 }
 
 .header-inner{
   position: relative;
 }
+
 .header-title {
   margin: 0;
   margin-bottom: 185px;
 }
+
 .span{
   color: var(--dark);
 }
