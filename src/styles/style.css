@@ -1,4 +1,7 @@
 /** CSS STYLE **/
+html, body{
+  box-sizing: border-box;
+}
 
 .hello {
   display: block;
@@ -27,6 +30,10 @@
   color: var(--main);
   font-weight: 400;
   margin: 0;
+}
+
+.font-white{
+  color: var(--white);
 }
 
 .fz-h1 {
@@ -72,6 +79,8 @@ body {
   opacity: 0.1;
   position: absolute;
   top: 0;
+  bottom: 0;
+  right: 0;
   left: 0;
   z-index: -2;
 }
@@ -126,6 +135,12 @@ body {
   background-color: #EA7600;
 }
 
+.video-container{
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
 .video-section-title{
   text-align: center;
   margin-bottom: 30px;
@@ -142,8 +157,47 @@ body {
   margin: 0 auto;
 }
 
-.cards{
+.navigation{
   background-color: var(--dark);
-  height: 100vh;
+  position: relative;
+  top: -100px;
+  z-index: -1;
+}
+
+.navigation-container{
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 200px 0 100px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  gap: 30px;
+}
+
+.cards-title{
+  font-size: 52px;
+}
+
+.card{
+  max-height: 348px;
+  padding: 24px;
+  background-color: var(--light);
+}
+
+.card-number{
+  margin-bottom: 40px;
+  font-size: 64px;
+  font-family: var(--font-title);
+  line-height: 1;
+}
+
+.card-title{
+  margin-bottom: 16px;
+}
+
+.card-text{
+  margin: 0;
 }
 
