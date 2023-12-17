@@ -5,3 +5,16 @@
 
   color: #fff;
 }
+
+body {
+  color: var(--Dark, #2A2626);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.container {
+  max-width: 1138px;
+  margin: 0 auto;
+}
