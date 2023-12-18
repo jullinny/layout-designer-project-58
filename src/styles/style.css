@@ -1,11 +1,19 @@
 /** CSS STYLE **/
-html, body{
+html, body *{
   box-sizing: border-box;
+}
+
+a, a:visited{
+  text-decoration: none;
+  font: inherit;
+}
+
+a:hover{
+  text-decoration: none;
 }
 
 .hello {
   display: block;
-
   color: #fff;
 }
 
@@ -65,10 +73,8 @@ body {
 }
 
 .header{
-  position: relative; 
+  position: relative;
   overflow-x: hidden;
-  background-color: #F5F5F5;
-  z-index: -3;
 }
 
 .header::before{
@@ -80,6 +86,14 @@ body {
   position: absolute;
   inset: 0;
   z-index: -2;
+}
+
+.header::after{
+  content: "";
+  background-color: #F5F5F5;
+  position: absolute;
+  inset: 0;
+  z-index: -3;
 }
 
 .header-inner{
@@ -132,6 +146,10 @@ body {
   background-color: #EA7600;
 }
 
+.video-section{
+  margin-bottom: -100px;
+}
+
 .video-container{
   max-width: 1110px;
   margin: 0 auto;
@@ -153,13 +171,13 @@ body {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   display: block;
   margin: 0 auto;
+  position: relative;
+  z-index: 5;
 }
 
 .navigation{
   background-color: var(--dark);
-  position: relative;
-  top: -100px;
-  z-index: -1;
+  z-index: 2;
 }
 
 .navigation-container{
@@ -170,7 +188,7 @@ body {
 
 .cards{
   display: grid;
-  grid-template-columns: 350px 350px 350px;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
@@ -179,7 +197,8 @@ body {
 }
 
 .card{
-  max-height: 348px;
+  box-sizing: border-box;
+  min-height: 350px;
   padding: 24px;
   background-color: var(--light);
 }
@@ -189,6 +208,7 @@ body {
   font-size: 64px;
   font-family: var(--font-title);
   line-height: 1;
+  color: var(--dark);
 }
 
 .card-title{
@@ -197,5 +217,83 @@ body {
 
 .card-text{
   margin: 0;
+  color: var(--dark);
 }
+
+.biases-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.ikea-effect{
+  position: relative;
+}
+
+.ikea-effect:before{
+  content: "";
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+.ikea-effect::after{
+  content: "";
+  background-color: #F5F5F5;
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+}
+
+.biases-img{
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.biases{
+  color: var(--dark-transp);
+  font-family: Neucha;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.biases-title{
+  font-family: Neucha;
+  font-weight: 400;
+  line-height: 72px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.biases-text{
+font-family: Neucha;
+font-size: 34px;
+font-weight: 400;
+line-height: 40.8px;
+}
+
+.biases-manifest-title{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 0 5px 10px;
+  display: block;
+  background-color: var(--brown);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+}
+
+.biases-manifest-texts{
+}
+
+.biases-manifest-texts p{
+  margin: 0;
+}
+
 
