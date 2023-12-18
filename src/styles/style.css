@@ -246,16 +246,16 @@ body {
   color: var(--dark);
 }
 
-.card:hover{
+.card:hover {
   background-color: var(--main);
   color: var(--white);
 }
 
-.card-title{
+.card-title {
   margin-bottom: 16px;
 }
 
-.card:hover .card-title{
+.card:hover .card-title {
   color: #fff;
 }
 
@@ -272,72 +272,74 @@ body {
 
 .biases-content {
   display: flex;
-  align-items: flex-start;
   gap: 30px;
+  margin-bottom: 100px;
 }
 
-.biases-img{
+.biases-img {
   box-shadow: 0 16px 32px 0 rgba(0 0 0 / 15%);
 }
 
 .biases {
-  color: var(--dark-transp);
+  margin: 0;
+  color: #908D8B;
   font-family: var(--font-title);
   font-size: 24px;
   font-weight: 400;
-  margin: 0;
-  line-height: 120%;
+  line-height: 28.8px;
+}
+
+.text-white-transp{
+  color: #D7CCC0;
 }
 
 .biases-title {
+  color: #2A2626;
   font-family: var(--font-title);
+  font-size: 60px;
   font-weight: 400;
-  margin-top: 0;
+  line-height: 72px;
   margin-bottom: 30px;
 }
 
 .biases-text {
+  margin: 0;
+  color: #2A2626;
   font-family: var(--font-title);
   font-size: 34px;
   font-weight: 400;
-  line-height: 120%;
-  margin: 0;
-}
-
-.biases-manifest{
-  margin-top: 100px;
+  line-height: 40.8px;
 }
 
 .biases-manifest-title {
-  margin-bottom: 4px;
-  padding: 5px 0 5px 10px;
-  display: block;
-  background-color: var(--brown);
-  text-transform: uppercase;
+  color: #FFF;
+  font-family: var(--main-font);
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
-  margin-top: 0;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  background-color:  #B09A81;
+  margin-bottom: 20px;
 }
 
-.biases-manifest-texts{
-  font-size: 15.8px;
-}
-
-.biases-manifest-texts p {
-  margin-bottom: 0;
-}
-
-.text-white {
-  color: var(--white-transp);
-}
-
-.bg-white {
+.font-brown{
+  color: #B09A81;
   background-color: #fff;
 }
 
-.font-brown {
-  color: var(--brown);
+.biases-manifest-texts{
+  display: flex;
+  gap: 30px;
+  margin: 0;
+}
+
+.biases-manifest-texts p{
+  margin: 0;
+}
+
+.text-white{
+  color: #fff;
 }
 
 .form-part {
@@ -363,7 +365,7 @@ body {
   margin-top: 9px;
 }
 
-label{
+label {
   font-size: 18px;
   line-height: 28.8px;
 }
@@ -404,19 +406,19 @@ button:hover {
   background-color: #EA7600;
 }
 
-.agree{
+.agree {
   font-size: 12px;
   line-height: 19.2px;
   margin: 0;
 }
 
-.agree a{
+.agree a {
   font: inherit;
   color: inherit;
   text-decoration: underline;
 }
 
-.rights-part{
+.rights-part {
   margin-top: 76px;
   text-align: center;
   font-size: 14px;
@@ -424,7 +426,7 @@ button:hover {
   color: #000;
 }
 
-.rights-part a{
+.rights-part a {
   color: #007DC1;
   text-decoration: underline;
 }
