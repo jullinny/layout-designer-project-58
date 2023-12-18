@@ -277,7 +277,7 @@ body {
 }
 
 .biases-img {
-  background:  lightgray 50% ;
+  background: lightgray 50%;
   box-shadow: 0 16px 32px 0 rgba(0 0 0 / 15%);
 }
 
@@ -290,7 +290,7 @@ body {
   line-height: 28.8px;
 }
 
-.text-white-transp{
+.text-white-transp {
   color: #D7CCC0;
 }
 
@@ -320,26 +320,41 @@ body {
   line-height: 16.8px;
   text-transform: uppercase;
   padding: 5px 10px;
-  background-color:  #B09A81;
+  background-color: #B09A81;
   margin-bottom: 20px;
 }
 
-.font-brown{
+.font-brown {
   color: #B09A81;
   background-color: #fff;
 }
 
-.biases-manifest-texts{
+.biases-manifest-texts {
   display: flex;
   gap: 30px;
   margin: 0;
+  color: #2A2626;
+  font-family: var(--main-font);
+  font-size: 15.8px;
+  font-weight: 400;
+  line-height: 25.6px;
 }
 
-.biases-manifest-texts p{
+.biases-manifest-texts p {
   margin: 0;
+  flex-basis: 540px;
 }
 
-.text-white{
+.biases-texts {
+  flex-basis: 540px;
+  color: #2A2626;
+  font-family: var(--main-font);
+  font-size: 15.8px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.text-white {
   color: #fff;
 }
 
