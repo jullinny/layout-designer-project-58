@@ -234,14 +234,12 @@ body {
 
 .cards-title {
   width: 350px;
-  max-height: 323px;
   font-size: 52px;
   line-height: 62.4px;
 }
 
 .card {
   width: 350px;
-  max-height: 348px;
   height: 100%;
   padding: 24px;
   background-color: var(--light);
@@ -253,6 +251,10 @@ body {
   color: var(--white);
 }
 
+.card-title{
+  margin-bottom: 16px;
+}
+
 .card:hover .card-title{
   color: #fff;
 }
@@ -262,10 +264,6 @@ body {
   font-size: 64px;
   font-family: var(--font-title);
   line-height: 1;
-}
-
-.card-title{
-  margin-bottom: 16px;
 }
 
 .card-text {
