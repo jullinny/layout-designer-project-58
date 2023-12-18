@@ -278,7 +278,12 @@ body {
 }
 
 .img {
+  flex-basis: 578px;
   box-shadow: 0 16px 32px 0 rgba(0 0 0 / 15%);
+}
+
+.img-content{
+  flex-basis: 502px;
 }
 
 .mini-title {
