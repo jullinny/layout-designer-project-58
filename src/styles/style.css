@@ -277,6 +277,7 @@ body {
 }
 
 .biases-img {
+  background: url('../img/5.png'), lightgray 50% / cover no-repeat;
   box-shadow: 0 16px 32px 0 rgba(0 0 0 / 15%);
 }
 
