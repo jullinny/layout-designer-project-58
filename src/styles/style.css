@@ -277,7 +277,7 @@ body {
   gap: 30px;
 }
 
-.biases-img {
+.biases-img{
   box-shadow: 0 16px 32px 0 rgb(0 0 0 / 15%);
 }
 
@@ -318,6 +318,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
+  margin-top: 0;
 }
 
 .biases-manifest-texts p {
