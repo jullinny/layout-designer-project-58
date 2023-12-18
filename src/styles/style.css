@@ -225,18 +225,21 @@ body {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
   gap: 20px 30px;
 }
 
 .cards-title {
+  width: 350px;
   font-size: 52px;
 }
 
 .card {
-  box-sizing: border-box;
-  min-height: 350px;
+  width: 350px;
+  max-height: 348px;
+  height: 100%;
   padding: 24px;
   background-color: var(--light);
 }
