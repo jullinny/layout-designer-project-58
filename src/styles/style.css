@@ -278,11 +278,9 @@ body {
 }
 
 .biases-img{
+  width: 578px;
+  height: 434px;
   box-shadow: 0 16px 32px 0 rgb(0 0 0 / 15%);
-}
-
-.img{
-  vertical-align:top;
 }
 
 .biases {
