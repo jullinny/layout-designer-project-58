@@ -181,7 +181,7 @@ body {
 }
 
 .link:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .video-section {
@@ -454,7 +454,7 @@ button::before {
 }
 
 button:hover {
-  background-color: #ea7600 ;
+  background-color: #ea7600;
 }
 
 .agree {
@@ -478,6 +478,6 @@ button:hover {
 }
 
 .rights-part a {
-  color: #007dc1 ;
+  color: #007dc1;
   text-decoration: underline;
 }
