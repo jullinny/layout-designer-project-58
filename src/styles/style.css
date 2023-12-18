@@ -231,7 +231,7 @@ body {
   position: relative;
 }
 
-.ikea-effect:before{
+.ikea-effect::before{
   content: "";
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
@@ -251,19 +251,19 @@ body {
 }
 
 .biases-img{
-  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 16px 32px 0 rgb(0 0 0 / 15%);
 }
 
 .biases{
   color: var(--dark-transp);
-  font-family: Neucha;
+  font-family: var(--font-title);
   font-size: 24px;
   font-weight: 400;
   margin: 0;
 }
 
 .biases-title{
-  font-family: Neucha;
+  font-family: var(--font-title);
   font-weight: 400;
   line-height: 72px;
   margin-top: 0;
@@ -271,7 +271,7 @@ body {
 }
 
 .biases-text{
-font-family: Neucha;
+font-family: var(--font-title);
 font-size: 34px;
 font-weight: 400;
 line-height: 40.8px;
@@ -289,8 +289,8 @@ line-height: 40.8px;
   line-height: 16.8px;
 }
 
-.biases-manifest-texts{
-}
+/* .biases-manifest-texts{
+} */
 
 .biases-manifest-texts p{
   margin: 0;
