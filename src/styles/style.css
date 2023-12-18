@@ -65,6 +65,7 @@ h2 {
 
 .fz-h3 {
   font-size: 34px;
+  line-height: 120%;
 }
 
 body {
@@ -233,7 +234,9 @@ body {
 
 .cards-title {
   width: 350px;
+  max-height: 323px;
   font-size: 52px;
+  line-height: 62.4px;
 }
 
 .card {
@@ -242,6 +245,16 @@ body {
   height: 100%;
   padding: 24px;
   background-color: var(--light);
+  color: var(--dark);
+}
+
+.card:hover{
+  background-color: var(--main);
+  color: var(--white);
+}
+
+.card:hover .card-title{
+  color: #fff;
 }
 
 .card-number {
@@ -249,16 +262,14 @@ body {
   font-size: 64px;
   font-family: var(--font-title);
   line-height: 1;
-  color: var(--dark);
 }
 
-.card-title {
+.card-title{
   margin-bottom: 16px;
 }
 
 .card-text {
   margin: 0;
-  color: var(--dark);
 }
 
 .biases-content {
@@ -381,6 +392,10 @@ button::before {
   width: 24px;
   height: 24px;
   margin: 0 auto;
+}
+
+button:hover {
+  background-color: #EA7600;
 }
 
 .agree{
