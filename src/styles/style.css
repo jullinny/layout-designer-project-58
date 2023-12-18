@@ -306,7 +306,7 @@ body {
 
 .biases-manifest-title {
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
   padding: 5px 0 5px 10px;
   display: block;
   background-color: var(--brown);
@@ -317,7 +317,7 @@ body {
 }
 
 .biases-manifest-texts p {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .text-white {
