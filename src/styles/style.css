@@ -44,12 +44,21 @@ a:hover{
   color: var(--white);
 }
 
+.font-dark{
+  color: var(--dark);
+}
+
 .fz-h1 {
   font-size: 72px;
 }
 
-.fz-h2{
+h2{
   font-size: 60px;
+  line-height: var(--lh-title);
+  font-family: var(--font-title);
+  color: var(--main);
+  font-weight: 400;
+  margin: 0;
 }
 
 .fz-h3{
@@ -71,13 +80,11 @@ body {
   margin: 0 auto;
   padding: 100px 0;
 }
-
-.header{
+.background-main{
   position: relative;
-  overflow-x: hidden;
 }
 
-.header::before{
+.background-main::before{
   content: "";
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
@@ -88,12 +95,39 @@ body {
   z-index: -2;
 }
 
-.header::after{
+.background-main::after{
   content: "";
   background-color: #F5F5F5;
   position: absolute;
   inset: 0;
   z-index: -3;
+}
+
+.background-brown{
+  position: relative;
+}
+
+.background-brown::before{
+  content: "";
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+.background-brown::after{
+  content: "";
+  background-color: var(--brown);
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+}
+
+.header{
+  overflow-x: hidden;
 }
 
 .header-inner{
@@ -227,29 +261,6 @@ body {
   gap: 30px;
 }
 
-.ikea-effect{
-  position: relative;
-}
-
-.ikea-effect::before{
-  content: "";
-  background-image: url("../img/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.1;
-  position: absolute;
-  inset: 0;
-  z-index: -2;
-}
-
-.ikea-effect::after{
-  content: "";
-  background-color: #F5F5F5;
-  position: absolute;
-  inset: 0;
-  z-index: -3;
-}
-
 .biases-img{
   box-shadow: 0 16px 32px 0 rgb(0 0 0 / 15%);
 }
@@ -289,11 +300,18 @@ line-height: 40.8px;
   line-height: 16.8px;
 }
 
-/* .biases-manifest-texts{
-} */
-
 .biases-manifest-texts p{
   margin: 0;
 }
 
+.text-white{
+  color: var(--white-transp);
+}
 
+.bg-white{
+  background-color: #fff;
+}
+
+.font-brown{
+  color: var(--brown);
+}
