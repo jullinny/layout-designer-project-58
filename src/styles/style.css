@@ -272,13 +272,12 @@ body {
 
 .biases-content {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   gap: 30px;
 }
 
 .biases-img{
-  box-shadow: 0 16px 32px 0 rgb(0 0 0 / 15%);
+  box-shadow: 0 16px 32px 0 rgba(0 0 0 / 15%);
 }
 
 .biases {
@@ -287,7 +286,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   margin: 0;
-  line-height: 29px;
+  line-height: 120%;
 }
 
 .biases-title {
@@ -301,7 +300,7 @@ body {
   font-family: var(--font-title);
   font-size: 34px;
   font-weight: 400;
-  line-height: 40.8px;
+  line-height: 120%;
   margin: 0;
 }
 
