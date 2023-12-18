@@ -101,7 +101,7 @@ body {
 
 .background-main::after {
   content: "";
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   position: absolute;
   inset: 0;
   z-index: -3;
@@ -256,7 +256,7 @@ body {
 }
 
 .card:hover .card-title {
-  color: #fff;
+  color: var(--white);
 }
 
 .card-number {
@@ -279,15 +279,15 @@ body {
 
 .img {
   flex-basis: 578px;
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%)) ;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.img-content{
+.img-content {
   flex-basis: 502px;
 }
 
 .mini-title {
-  color: #908D8B;
+  color: var(--dark-transp);
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -295,7 +295,7 @@ body {
 }
 
 .img-title {
-  color: #2A2626;
+  color: var(--dark);
   margin-bottom: 30px;
 }
 
@@ -310,14 +310,14 @@ body {
 }
 
 .desc-title {
-  color: #FFF;
+  color: var(--white);
   font-family: var(--main-font);
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
   text-transform: uppercase;
   padding: 5px 10px;
-  background-color: #B09A81;
+  background-color: var(--brown);
   margin: 0;
 }
 
@@ -344,7 +344,7 @@ body {
 }
 
 .mini-title-dark {
-  color: #D7CCC0;
+  color: var(--white-transp);
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -352,7 +352,7 @@ body {
 }
 
 .img-title-dark {
-  color: #FFF;
+  color: var(--white);
   font-size: 60px;
   font-weight: 400;
   line-height: 72px;
@@ -360,28 +360,28 @@ body {
 }
 
 .img-text-dark {
-  color: #FFF;
+  color: var(--white);
   font-size: 34px;
   font-weight: 400;
   line-height: 120%;
 }
 
 .desc-title-dark {
-  color: #B09A81;
+  color: var(--brown);
   font-family: var(--main-font);
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
   text-transform: uppercase;
   padding: 5px 10px;
-  background-color: #fff;
+  background-color: var(--white);
   margin: 0 0 20px;
 }
 
 .desc-texts-dark {
   display: flex;
   gap: 30px;
-  color: #FFF;
+  color: var(--white);
   font-family: var(--main-font);
   font-size: 16px;
   font-weight: 400;
@@ -454,7 +454,7 @@ button::before {
 }
 
 button:hover {
-  background-color: #EA7600;
+  background-color: #ea7600 ;
 }
 
 .agree {
@@ -478,6 +478,6 @@ button:hover {
 }
 
 .rights-part a {
-  color: #007DC1;
+  color: #007dc1 ;
   text-decoration: underline;
 }
