@@ -304,8 +304,11 @@ body {
   line-height: 40.8px;
 }
 
-.biases-manifest-title {
+.biases-manifest{
   margin-top: 100px;
+}
+
+.biases-manifest-title {
   margin-bottom: 4px;
   padding: 5px 0 5px 10px;
   display: block;
