@@ -215,7 +215,7 @@ body {
 
 .navigation {
   margin-top: 8px;
-  background-color: var(--dark);
+  background-color: var(--main-dark);
   z-index: 2;
 }
 
