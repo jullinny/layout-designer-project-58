@@ -213,6 +213,7 @@ body {
 }
 
 .navigation {
+  margin-top: 16px;
   background-color: var(--dark);
   z-index: 2;
 }
@@ -226,7 +227,7 @@ body {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 20px 30px;
 }
 
 .cards-title {
